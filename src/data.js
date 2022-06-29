@@ -40,6 +40,6 @@ export const categories=[
     {
         id:3,
         img:"https://images.pexels.com/photos/7062015/pexels-photo-7062015.jpeg?auto=compress&cs=tinysrgb&w=800",
-        title:"LIGHT JACKETS",
+        title:"LIGHT JACKET",
     }
 ]
