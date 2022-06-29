@@ -5,14 +5,14 @@ const Container = styled.div`
 flex:1;
 maargin:5px;
 height:70vh;
-padding:5px;
+padding:3px;
 position:relative;
 `;
 const Image = styled.img`
 width: 100%;
-height: 100vh;
+height: 80vh;
 object-fit:cover;
-border-radius:5px;
+border-radius:20px;
 
 `;
 const Info = styled.div`

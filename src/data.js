@@ -43,3 +43,32 @@ export const categories=[
         title:"LIGHT JACKET",
     }
 ]
+
+export const Popularproducts = [
+    {
+        id:1,
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb2XLV2zf9xF1XvYko2gtR0uiWX2SvCqtS9g&usqp=CAU",
+        
+    },
+    {
+        id:2,
+        img:"https://i.pinimg.com/originals/14/ac/da/14acda6c173afb4ad4582394650797e0.jpg",
+        
+    },
+    {
+        id:3,
+        img:"https://ckstudio.in/wp-content/uploads/2019/10/Garments-and-Clothing-Photography-59.jpg",
+    },
+    {
+        id:4,
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSymOCiPRhvkcdrhg25CBY9GnUffTI4nCWoFqk_hBpVJRqZ2mAfYSyfxdMTJWABC0GFdVY&usqp=CAU",
+    },
+    {
+        id:5,
+        img:"https://i.pinimg.com/736x/9d/25/91/9d25913003fd8726636feab42a5e1455--the-darkness-product-photography.jpg",
+    },
+    {
+        id:6,
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS0hRQ8FEkIQcIxKd5-nS9ehTDYcfpd1IPkg&usqp=CAU",
+    }
+    ]
