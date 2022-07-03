@@ -4,8 +4,7 @@ import Announcement from '../components/Announcement'
 import { Divider } from '@material-ui/core'
 import { Slider } from '../components/Slider'
 import Category from '../components/Category'
-import Product from '../components/Product'
-
+import Product from "../components/product"
 const Home = () => {
   return (
     <div>
