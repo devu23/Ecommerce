@@ -44,10 +44,17 @@ export const categories=[
     }
 ]
 
+<<<<<<< HEAD
 export const PopularProducts = [
     {
         id:1,
         img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb2XLV2zf9xF1XvYko2gtR0uiWX2SvCqtS9g&usqp=CAU",
+=======
+export const popularProducts = [
+    {
+        id:1,
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAz4khxvDj2KFCx6lknz4adNWiIDQTLwad7A&usqp=CAU",
+>>>>>>> experiment
         
     },
     {
@@ -65,11 +72,28 @@ export const PopularProducts = [
     },
     {
         id:5,
+<<<<<<< HEAD
         img:"https://i.pinimg.com/736x/9d/25/91/9d25913003fd8726636feab42a5e1455--the-darkness-product-photography.jpg",
+=======
+        img:"https://cdn.vox-cdn.com/thumbor/dRKAh9epKvkECNW8pSvZVpPpYLE=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19938420/DSCF8146.jpg",
+>>>>>>> experiment
     },
     {
         id:6,
         img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS0hRQ8FEkIQcIxKd5-nS9ehTDYcfpd1IPkg&usqp=CAU",
+<<<<<<< HEAD
     }
     ]
 
+=======
+    },
+    {
+        id:7,
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPsWtFM3rwxW-Bb7Kz127V9OJ1Zj1_D2YTvg&usqp=CAU",
+    },
+    {
+        id:8,
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQirVZHMlJ1s96xTAwMZekci-TEHUf3Ys2YbA&usqp=CAU",
+    }
+    ]
+>>>>>>> experiment
