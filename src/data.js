@@ -44,7 +44,7 @@ export const categories=[
     }
 ]
 
-export const Popularproducts = [
+export const PopularProducts = [
     {
         id:1,
         img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb2XLV2zf9xF1XvYko2gtR0uiWX2SvCqtS9g&usqp=CAU",
@@ -72,3 +72,4 @@ export const Popularproducts = [
         img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS0hRQ8FEkIQcIxKd5-nS9ehTDYcfpd1IPkg&usqp=CAU",
     }
     ]
+
