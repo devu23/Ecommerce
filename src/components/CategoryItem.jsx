@@ -36,9 +36,16 @@ font-weight: 600px;
 
 const Button = styled.button` 
 border:none;
+border-radius: 5px;
 background-color: white ;
 padding:10px ;
+transition : all 0.5s ease;
 cursor: pointer;
+&:hover{
+transform:scale(1.2);
+
+
+}
 `;
 
  const CategoryItem = ({item}) => { 

@@ -2,6 +2,21 @@ import {FavoriteBorderOutlined, Search, ShoppingCartOutlined } from '@material-u
 import React from 'react';
 import styled from 'styled-components';
 
+
+const Info = styled.div`
+height:100%;
+width: 100%;
+position: absolute;
+top:0;
+left:0;
+background-color: rgba(0,0,0,0.2);
+z-index:3;
+display:flex;
+align-items: center;
+justify-content: center; 
+opacity: 0;  
+transition: all 0.5s ease;
+`
 const Container = styled.div`
 flex: 1;
 margin:5px ;
@@ -13,32 +28,26 @@ justify-content: center;
 background-color: #f2f2f2 ;
 position: relative;
 
+&:hover ${Info}{
+    opacity: 1;
+    cursor:pointer;
+    }
+
+
 `
-const Circle = styled.div`
-width: 200px;
-height: 200px;
-border-radius: 50%;
-position: absolute;
-background-color: white;
+ const Circle = styled.div`
+ width: 200px;
+ height: 200px;
+ border-radius: 50%;
+ position: absolute;
+ background-color: white;
 `
 const Image = styled.img`
 height : 80%;
 z-index:2;
 
 `
-const Info = styled.div`
-height:100%;
-width: 100%;
-position: absolute;
-top:0;
-left:0;
-background-color: grey;
-z-index:3;
-display:flex;
-align-items: center;
-justify-content: center;    
 
-`
 const Icon = styled.div`
 height:40px;
 width:40px;
@@ -48,7 +57,7 @@ display:flex;
 align-items: center;
 justify-content: center;
 margin:10px;
-
+transition : all 0.5s ease;
 &:hover{
     background-color: #ffffff;
     transform:scale(1.1);
