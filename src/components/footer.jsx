@@ -1,12 +1,13 @@
 import { Facebook, Instagram, MailOutline, Phone, Pinterest, Room, Twitter } from '@material-ui/icons'
 import React from 'react'
 import styled from 'styled-components'
-
-
+import {mobile} from '../Responsive'
 
 const Container = styled.div`
 display:flex;
 height:3vh;
+${mobile({flexDirection: "column"})}
+
 `
 
 const Left = styled.div`
@@ -18,12 +19,15 @@ padding: 20px;
 const Right = styled.div`
 flex: 1;
 padding: 20px;
+${mobile({backgroundColor: "#eee"})}
 
 `
 
 const Center = styled.div`
 flex: 1;
 padding: 20px;
+${mobile({display: "#e6eded "})}
+
 `
 
 const Logo = styled.h1``
@@ -72,7 +76,7 @@ const Payment= styled.img`
 max-width:50%;
 height:auto;
  ` 
-export const Footer = () => {
+ const Footer = () => {
     return (
         <Container>
             <Left>
@@ -142,3 +146,4 @@ export const Footer = () => {
         </Container>
     )
 }
+export default Footer;

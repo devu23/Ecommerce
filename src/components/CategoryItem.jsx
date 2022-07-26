@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import {mobile} from '../Responsive'
 
 const Container = styled.div`
 flex:1;
@@ -13,6 +14,7 @@ width: 100%;
 height: 80vh;
 object-fit:cover;
 border-radius:20px;
+${mobile({height: "20vh"})};
 
 `;
 const Info = styled.div`

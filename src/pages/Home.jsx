@@ -6,7 +6,7 @@ import { Slider } from '../components/Slider'
 import Category from '../components/Category'
 import Product from "../components/product"
 import  Newsletter  from '../components/Newsletter'
-import { Footer } from '../components/footer'
+import  Footer  from '../components/footer'
 
 const Home = () => {
   return(
